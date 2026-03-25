@@ -12,7 +12,7 @@ nest_asyncio.apply()
 # --- الإعدادات ---
 TARGET = "https://ouo.io/umzOBoU"
 PROXIES_FILE = "proxies.txt"
-CONCURRENT_COUNT = 15  # تقليل العدد قليلاً لضمان استقرار السيرفر المجاني
+CONCURRENT_COUNT = 5  # تقليل العدد قليلاً لضمان استقرار السيرفر المجاني
 
 class ProxyHunter:
     def __init__(self):
